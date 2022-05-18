@@ -22,6 +22,8 @@ public class ProdutoRepository {
 		return this.produtos.get(id);
 	}
 	
+	//testando
+	
 	public void delProd(String id) {
 		this.produtos.remove(id);
 	}
